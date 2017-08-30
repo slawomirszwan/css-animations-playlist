@@ -49,7 +49,9 @@ html, body{
   /*czas poruszania*/
   animation-duration: 3s; 
   /*dodanie naturalnego zatrzymania*/
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; 
+  /*dodanie opoünienia*/
+  animation-delay: 2s;
 }
 
 
