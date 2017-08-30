@@ -56,7 +56,21 @@ html, body{
   animation-iteration-count: infinite;
 }
 
-
+.luigi {
+  position: absolute;
+  top: -40px;
+  left: 0;         
+  /*keyframes*/             
+  animation-name: drive;
+  /*czas poruszania*/
+  animation-duration: 3.8s; 
+  /*dodanie zatrzymania w koncowym etapie animacji -pozostaje tam*/
+  animation-fill-mode: both; /*backwards,forward,both*/
+  /*dodanie opoünienia*/
+  animation-delay: 3s; 
+  /*iteracje*/
+  animation-iteration-count: infinite;
+}
 /*// KEYFRAMES //*/
 @keyframes drive {
   from{
