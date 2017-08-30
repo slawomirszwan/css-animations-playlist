@@ -71,7 +71,7 @@ html, body{
   /*iteracje*/
   animation-iteration-count: infinite;  
     /*kierunek*/
-  animation-direction: reverse; /*normal,reverse,alternate*/
+  animation-direction: alternate-reverse; /*normal,reverse,alternate,alternate-reverse*/
 }
 /*// KEYFRAMES //*/
 @keyframes drive {
