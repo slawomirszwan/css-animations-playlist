@@ -48,7 +48,7 @@ html, body{
   animation-name: drive;
   /*czas poruszania*/
   animation-duration: 3s; 
-  /*dodanie naturalnego zatrzymania*/
+  /*dodanie zatrzymania w koncowym etapie animacji -pozostaje tam*/
   animation-fill-mode: forwards; 
   /*dodanie opoünienia*/
   animation-delay: 2s;
