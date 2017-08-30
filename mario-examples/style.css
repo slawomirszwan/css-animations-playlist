@@ -53,7 +53,7 @@ html, body{
   /*dodanie opoünienia*/
   animation-delay: 2s; 
   /*iteracje*/
-  animation-iteration-count: 3;
+  animation-iteration-count: infinite;
 }
 
 
