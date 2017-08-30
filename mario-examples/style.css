@@ -51,7 +51,9 @@ html, body{
   /*dodanie zatrzymania w koncowym etapie animacji -pozostaje tam*/
   animation-fill-mode: both; /*backwards,forward,both*/
   /*dodanie opoünienia*/
-  animation-delay: 2s;
+  animation-delay: 2s; 
+  /*iteracje*/
+  animation-iteration-count: 3;
 }
 
 
