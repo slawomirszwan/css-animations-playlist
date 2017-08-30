@@ -43,9 +43,13 @@ html, body{
 .mario {
   position: absolute;
   top: -40px;
-  left: 0;                      
+  left: 0;         
+  /*keyframes*/             
   animation-name: drive;
-  animation-duration: 3s;
+  /*czas poruszania*/
+  animation-duration: 3s; 
+  /*dodanie naturalnego zatrzymania*/
+  animation-fill-mode: forwards;
 }
 
 
